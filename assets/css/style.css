@@ -1,0 +1,16 @@
+@import url(https://db.onlinewebfonts.com/c/b1763f89102fde2cd1fdc592773be9f0?family=Cat+Font);
+@font-face {font-family: "Cat Font"; src: url("//db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.eot"); src: url("//db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.woff") format("woff"), url("//db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.svg#Cat Font") format("svg"); 
+}
+@font-face {
+    font-family: Fox-Cat;
+    src: url("../fonts/Fox-Cat.ttf")
+    format("truetype");
+}
+
+h1 {
+    font-family: Cat Font, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+p {
+    font-family: Fox-Cat, Arial, Helvetica, sans-serif;
+}
