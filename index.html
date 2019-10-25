@@ -7,7 +7,7 @@
     <title>GifTastic</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="//db.onlinewebfonts.com/c/b1763f89102fde2cd1fdc592773be9f0?family=Cat+Font" rel="stylesheet" type="text/css"/>
+    <link href="https://db.onlinewebfonts.com/c/b1763f89102fde2cd1fdc592773be9f0?family=Cat+Font" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="./assets/css/style.css">
     <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -20,32 +20,29 @@
                     <div class="col-12">
                    <div class="header text-center clearfix">
                             <h1>🐈 All things Cat GIFs! 🐱</h1>
+                    <div id="cat-buttons">
+                        <!-- buttons shown here -->
                     </div>
-                </div> <!-- col -->
-            </div> <!-- Row -->
+                    </div>
+                    </div> 
+            </div>
             <br>
+    <div class="row">
+        <div class="col-12">
+            <form>
+                Something missing? Add a new cat breed button!
+                <br>
+                <input type="text" name="newbreed" id="newbreed">
+                <input type="submit" value="Submit" class="btn" id="submit">
+            </form>
+        </div>
+    </div>
             <div class="row">
                     <div class="col-12">
-                        <!-- cat buttons go here -->
-                        <p><div id="cat-buttons"></div></p>
+                        <!-- gifs show here -->
+                        <div id ="gifs"></div>
                     </div>
-            </div>
-    
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+            </div>     
     </div> <!-- Container -->
     <script src="./assets/javascript/app.js"></script>
 </body>

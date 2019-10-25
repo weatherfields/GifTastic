@@ -1,10 +1,10 @@
 @import url(https://db.onlinewebfonts.com/c/b1763f89102fde2cd1fdc592773be9f0?family=Cat+Font);
+
 @font-face {font-family: "Cat Font"; src: url("//db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.eot"); src: url("//db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.woff") format("woff"), url("//db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.svg#Cat Font") format("svg"); 
 }
 @font-face {
     font-family: Fox-Cat;
-    src: url("../fonts/Fox-Cat.ttf")
-    format("truetype");
+    src: url("../fonts/Fox-Cat.ttf") format("truetype"), url("../fonts/Fox-Cat.otf") format("opentype");
 }
 
 h1 {
@@ -13,4 +13,12 @@ h1 {
 }
 p {
     font-family: Fox-Cat, Arial, Helvetica, sans-serif;
+}
+.unique-gifs {
+	float: left;
+	margin: 2vh 3vw 2vh 3vw;
+}
+.cat-image{
+	margin-top: 1vh;
+	margin-bottom: 1vh;
 }
