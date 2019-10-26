@@ -9,7 +9,8 @@ $(document).ready(function () {
         topics.push(addCat);
         $("#newbreed").val('');
         btnMaker();
-        event.preventDefault();
+        // prevents page from reloading 
+        event.preventDefault(); 
     })
 });
 //creates the buttons from the array
