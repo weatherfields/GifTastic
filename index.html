@@ -1,48 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GifTastic</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://db.onlinewebfonts.com/c/b1763f89102fde2cd1fdc592773be9f0?family=Cat+Font" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://db.onlinewebfonts.com/c/b1763f89102fde2cd1fdc592773be9f0?family=Cat+Font" rel="stylesheet"
+        type="text/css" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="container-fluid">
-            <div class="row">
-                    <div class="col-12">
-                   <div class="header text-center clearfix">
-                            <h1>🐈 All things Cat GIFs! 🐱</h1>
+        <div class="row">
+            <div class="col-12">
+                <div class="header text-center clearfix">
+                    <a href="https://www.catological.com/ultimate-guide-cat-breeds-100-breeds/" target="_blank" rel="noopener noreferrer" class="floatedlist"><h1>🐈 All things Cat GIFs! 🐱</h1>
+                        </a>
                     <div id="cat-buttons">
                         <!-- buttons shown here -->
                     </div>
-                    </div>
-                    </div> 
+                </div>
             </div>
-            <br>
-    <div class="row">
-        <div class="col-12">
-            <form>
-                Something missing? Add a new cat breed button!
-                <br>
-                <input type="text" name="newbreed" id="newbreed">
-                <input type="submit" value="Submit" class="btn" id="submit">
-            </form>
         </div>
-    </div>
-            <div class="row">
-                    <div class="col-12">
-                        <!-- gifs show here -->
-                        <div id ="gifs"></div>
-                    </div>
-            </div>     
+        <br>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+    <!-- Form for adding new breeds -->
+                <form>
+                    Using the form below, add your favorite cat breed to the list.
+                    <br>
+                    Stuck? click link in the header to discover your favorite breed!
+                    <input type="text" name="newbreed" id="newbreed">
+                    <input type="submit" value="Submit" class="btn" id="submit">
+                </form>
+            </div>
+            <div class="col-3"></div>
+        </div>
+        <div class="row">
+            <div id="catwrapper" class="col-12">
+                <!-- gifs show here -->
+                <div id="gifs"></div>
+            </div>
+        </div>
     </div> <!-- Container -->
     <script src="./assets/javascript/app.js"></script>
 </body>

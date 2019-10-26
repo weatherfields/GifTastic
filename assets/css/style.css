@@ -1,24 +1,66 @@
 @import url(https://db.onlinewebfonts.com/c/b1763f89102fde2cd1fdc592773be9f0?family=Cat+Font);
 
-@font-face {font-family: "Cat Font"; src: url("//db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.eot"); src: url("//db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.woff") format("woff"), url("//db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.svg#Cat Font") format("svg"); 
+@font-face {font-family: "Cat Font"; src: url("https://db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.eot"); src: url("https://db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.woff") format("woff"), url("https://db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/b1763f89102fde2cd1fdc592773be9f0.svg#Cat Font") format("svg"); 
 }
 @font-face {
     font-family: Fox-Cat;
     src: url("../fonts/Fox-Cat.ttf") format("truetype"), url("../fonts/Fox-Cat.otf") format("opentype");
 }
+body {
+    background: url(../images/cats.jpg) no-repeat center center fixed;
 
-h1 {
-    font-family: Cat Font, Arial, Helvetica, sans-serif;
-    text-align: center;
+}
+.container-fluid {
+    max-width: 90%;
 }
 p {
+    color: whitesmoke;
     font-family: Fox-Cat, Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
+
+h1 {
+    
+    font-family: Cat Font, Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: rgb(212, 210, 207);
+    border-radius: 20pt;
+    border: 5pt double rgb(20, 20, 19);
+    margin: 10px;
+    padding: 10px;
+}
+form {
+    font-size: 18px;
+    font-family: Fox-Cat, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.btn {
+    font-family: Fox-Cat, Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    background-color: teal;
+    margin: 2px;
+    font-weight: bold;
+}
+form {
+    background: rgb(212, 210, 207);
+    border-radius: 20pt;
+    border: 5pt double rgb(20, 20, 19);
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
 .unique-gifs {
 	float: left;
-	margin: 2vh 3vw 2vh 3vw;
+    margin: 3px;
 }
 .cat-image{
-	margin-top: 1vh;
-	margin-bottom: 1vh;
+	margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 15pt;
+}
+a {
+    color: black;
 }
